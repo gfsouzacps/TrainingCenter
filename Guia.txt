@@ -1,0 +1,41 @@
+1.TrainingCenter.Api:
+   - Este projeto é responsável por fornecer uma API RESTful ou gRPC para o frontend e outras partes da aplicação.
+   - Pode incluir controllers, validações de entrada, middlewares, etc.
+   - Exemplos de implementação:
+     - Controllers para manipular requisições HTTP e fornecer respostas.
+     - Validações de entrada para garantir a integridade dos dados recebidos.
+     - Configuração de rotas e endpoints da API.
+
+2.TrainingCenter.Entidades:
+   - Este projeto contém as entidades do domínio da aplicação.
+   - Exemplos de implementação:
+     - Definição de classes para representar entidades do domínio.
+
+
+3.TrainingCenter.Shared.Comum:
+   - Este projeto contém funcionalidades compartilhadas entre diferentes partes do seu sistema.
+   - Pode incluir utilitários, classes de auxílio, constantes, enums e outros tipos de dados comuns.
+   - Exemplos de implementação: 
+     - Classes de validação de entrada de dados.
+     - Classes para formatação de datas, números, etc.
+     - Enums para representar tipos de dados comuns.
+     - Classes de manipulação de strings.
+     - Classes para manipulação de arquivos, como leitura/gravação de configurações.
+
+
+4.TrainingCenter.Shared.Infraestrutura.Backend:
+   - Este projeto fornece infraestrutura específica para o backend da aplicação.
+   - Pode incluir configurações para integração com bancos de dados, documentação Swagger, etc.
+   - Exemplos de implementação:
+     - Classes para configuração e conexão com diferentes tipos de banco de dados (por exemplo, SQL Server, Oracle).
+     - Configuração de documentação Swagger para documentar a API backend.
+     - Implementações de acesso a banco de dados usando Entity Framework ou ADO.NET.
+
+
+5.TrainingCenter.Frontend.Blazor.Server:
+   - Este projeto contém o lado servidor da aplicação Blazor.
+   - Pode incluir componentes Blazor, páginas, serviços de comunicação com o backend, etc.
+   - Exemplos de implementação:
+     - Componentes Blazor para construir a interface de usuário.
+     - Serviços para comunicação com a API backend.
+     - Páginas para navegação e interação do usuário.
